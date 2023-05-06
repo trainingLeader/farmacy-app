@@ -1,0 +1,25 @@
+{
+  "city": [],
+  "customer": [
+    {
+      "createdAt": "2023-05-05",
+      "cc": "6666",
+      "nombres": "jjj",
+      "apellidos": "jjjj",
+      "email": "jjp@fff.com",
+      "telefono": "6666",
+      "fechanac": "2023-05-05",
+      "id": 1
+    },
+    {
+      "createdAt": "2023-05-01",
+      "cc": "77777",
+      "nombres": "Jose",
+      "apellidos": "Perez",
+      "email": "jp@gg.com",
+      "telefono": "6666",
+      "fechanac": "2023-05-20",
+      "id": 2
+    }
+  ]
+}
