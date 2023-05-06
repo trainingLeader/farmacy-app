@@ -1,12 +1,13 @@
 import { postData,putData,opc } from '../../Apis/customer-api.js';
 export class CustomerForm extends HTMLElement{
+
     constructor(){
         super();
         this.render();
-        this.saveData();
+
     }
-    render(){
-        this.innerHTML = /* html */ `
+    render() {
+        this.innerHTML = /* html */`
         <div class="card">
             <h5 class="card-header">Registro de clientes</h5>
             <div class="card-body">
@@ -45,9 +46,9 @@ export class CustomerForm extends HTMLElement{
                                         <label for="fechanac" class="form-label">Fecha Nacimiento</label>
                                         <input type="date" class="form-control" id="fechanac" name="fechanac">                  
                                     </div>
-                                </div>
-                                <div class="container mt-4 text-center">
-                                    <input type="submit" data-accion="POST" class="btn btn-primary" value="Guardar Cliente">
+                                    <div class="container mt-4 text-center" >
+                                        <input type="submit" data-accion="POST" class="btn btn-primary" value="Guardar Clientes">
+                                    </div>
                                 </div>
                             </form>                         
                     </div>
@@ -56,6 +57,7 @@ export class CustomerForm extends HTMLElement{
             </div>
         </div>        
         `
+        this.saveData();
     }
     saveData = () =>{
         let myForm = document.querySelector("#frmData");

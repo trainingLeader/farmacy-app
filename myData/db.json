@@ -4,8 +4,8 @@
     {
       "createdAt": "2023-05-05",
       "cc": "6666",
-      "nombres": "jjj",
-      "apellidos": "jjjj",
+      "nombres": "Maria Antonieta",
+      "apellidos": "de las Nieves",
       "email": "jjp@fff.com",
       "telefono": "6666",
       "fechanac": "2023-05-05",
@@ -20,6 +20,26 @@
       "telefono": "6666",
       "fechanac": "2023-05-20",
       "id": 2
+    },
+    {
+      "createdAt": "2023-05-06",
+      "cc": "1256",
+      "nombres": "Carlos",
+      "apellidos": "Marx",
+      "email": "cm@gmail.com",
+      "telefono": "54566",
+      "fechanac": "2003-05-08",
+      "id": 3
+    },
+    {
+      "createdAt": "2023-05-03",
+      "cc": "8888",
+      "nombres": "iklk",
+      "apellidos": "jkljkl",
+      "email": "jkljkl@ff.com",
+      "telefono": "jklkl",
+      "fechanac": "2023-05-18",
+      "id": 7
     }
   ]
 }
